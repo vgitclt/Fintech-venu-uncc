@@ -4,7 +4,7 @@ stock_tickers = ["AMZN", "CSCO", "FB", "GOOG", "INTC", "MSFT", "SQ", "TWTR", "WR
 
 
 # Update the ticker 'WRK' to 'WORK'
-stock_tickers[8] = "WORK"
+stock_tickers[0] = "BAC"
 
 # Alternatively, you can use -1 to select the index of the last item in the list.
 # stock_tickers[-1] = 'WORK'
@@ -23,6 +23,7 @@ print(stock_tickers)
 
 # Remove the ticker 'INTC' from the stock_tickers list
 stock_tickers.remove("INTC")
+stock_tickers.
 print(stock_tickers)
 
 # Remove the ticker 'SQ' from the list using the pop() method

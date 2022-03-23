@@ -12,6 +12,7 @@ print(f"Dictionary: {top_traders_2019}")
 print()
 
 # Initialize a dictionary
+# change.
 trading_pnl = {
     "title": "Trading Log",
     "03-18-2019": -224,
