@@ -27,7 +27,7 @@ print("The amended student loan profile:", student_loan_information_aj)
 # Every loan should have an interest rate associated with its information.
 # Add a key called 'interest_rate' and assign it a value of 3.5 percent (or 0.035).
 # Print the dictionary so that you know your changes are working.
-student_loan_information_aj["interest_rate"] = 0.035
+student_loan_information_aj["Degree"] = "Fintech"
 print("The amended student loan profile:", student_loan_information_aj)
 
 
