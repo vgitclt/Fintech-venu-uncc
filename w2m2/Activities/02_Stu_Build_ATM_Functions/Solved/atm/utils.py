@@ -7,7 +7,7 @@ import sys
 
 def load_accounts():
     """Writes account information from CSV to list."""
-    csvpath = Path('data/accounts.csv')
+    csvpath = Path('w2m2/Activities/02_Stu_Build_ATM_Functions/Solved/atm/data/accounts.csv')
     accounts = []
     with open(csvpath, newline='') as csvfile:
         rows = csv.reader(csvfile)
