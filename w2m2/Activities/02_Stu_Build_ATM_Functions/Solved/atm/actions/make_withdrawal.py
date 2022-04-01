@@ -27,6 +27,7 @@ def make_withdrawal(account):
     # Validates if withdrawal amount is less than or equal to account balance, processes withdrawal and returns account.
     # Else system exits with error messages indicating that the account is short of funds.
     if amount <= account["balance"]:
+        # I made a change here, if, for 
         account["balance"] = account["balance"] - amount
         print("Your withdrawal was successful!")
         return account
